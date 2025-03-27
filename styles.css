@@ -1,0 +1,100 @@
+.nav {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(0, 0, 0);
+	color:#fff;	
+	padding: 0px;
+	font-family: 'roboto', sans-serif;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #fff;
+	background-color: black;
+	padding: 15px 20px;
+	margin: 0 10px;
+	border-radius: 5px;
+	transition: 0.3s ease-in-out;
+	font-size: 25px;
+}
+
+.nav a:hover {
+	background: linear-gradient(orange,white,green);
+	color: black;
+	transform: scale(1.1);
+}
+
+audio{
+	background-color: linear-gradient(orange,white,green);
+	color: linear-gradient(orange,white,green);
+	margin-left: 15px;
+}
+
+audio:hover{
+	transform: scale(1.1);
+	transition: 0.3s ease-in-out;
+}
+
+header {
+	background: #828282;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+
+
+
+iframe:hover{
+	transform: scale(1.1);
+	display: flex;
+}
+	
+iframe{
+	transition: 0.3s ease-in-out;
+	display: flex;
+}
+
+
+
+.f{
+	transition: 0.3s ease-in-out;
+}
+
+.f:hover{
+	transform: scale(1.1);
+}
+
+
+footer{
+	transition: 0.3s ease-in-out;
+}
+
+footer a:hover {
+	background: linear-gradient(#FF9933,#138808);
+	color: black;
+	transform: scale(1.1);
+}
+
+.nav{
+	animation-name: na;
+	animation-duration: 2.5s;
+}
+@keyframes na{
+	from{margin-left: -2900px;}
+	to{margin-left: -10;}	
+}
+
+@media only screen and (max-width: 1440px)
+{
+	body{
+		background-image: url(mbg.jpeg);
+	}
+
+	.nav a:hover {
+		background: linear-gradient(orange,green);
+		color: white;
+		transform: scale(1.1);
+	}
+}
+	
